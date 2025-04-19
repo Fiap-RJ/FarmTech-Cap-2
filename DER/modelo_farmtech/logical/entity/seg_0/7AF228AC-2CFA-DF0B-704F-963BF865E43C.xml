@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7AF228AC-2CFA-DF0B-704F-963BF865E43C" name="Histórico_Ajuste_Agua">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:58:17 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_histórico" id="AA0247AB-2997-76BA-A9DF-D81A16EF1FCE">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:58:25 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificador do histórico]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora" id="B33E46BF-5F3A-C2D0-2826-60C95ECF029B">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:58:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora do histórico]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_ajuste" id="87A10D28-8D44-41A3-D3E3-5EDA63FBA878">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:58:54 UTC</createdTime>
+<commentInRDBMS><![CDATA[Ajuste de aplicação relacionado]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade_agua" id="D4DD2D3C-6050-BA4F-35C6-90C958F1A0C6">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:58:55 UTC</createdTime>
+<commentInRDBMS><![CDATA[identificador do histórico]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6190E73-CF70-4B0A-4143-13E2740CA00D" name="Histórico_Ajuste_Agua PK">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:58:49 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AA0247AB-2997-76BA-A9DF-D81A16EF1FCE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

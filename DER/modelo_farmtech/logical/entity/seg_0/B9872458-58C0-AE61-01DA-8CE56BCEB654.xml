@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B9872458-58C0-AE61-01DA-8CE56BCEB654" name="Sensor">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:31:56 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_sensor" id="B8E90B1B-6674-8E38-DF21-781448CAFFFC">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:32:21 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador único do sensor]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="CF648A21-5F3D-4F56-B4FA-FB1454A61193">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:33:10 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tipo do sensor (Umidade, pH, Nutrientes)]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="modelo" id="6ACFEA85-9609-5852-91E8-E521C8095DD3">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:33:34 UTC</createdTime>
+<commentInRDBMS><![CDATA[Modelo do sensor]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_instalacao" id="FE7A62B3-5045-5BCA-DA24-492155988D17">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:36:38 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data de instalação do sensor]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25533D83-0665-98C6-FC47-19F0136F4B6C" name="Sensor PK">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:37:22 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B8E90B1B-6674-8E38-DF21-781448CAFFFC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,3 +1,4 @@
+
 CREATE TABLE Cultura (
     ID_Cultura INT PRIMARY KEY,
     Nome VARCHAR(100),

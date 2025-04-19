@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="4D7B1F1E-DD1F-81C0-1458-EA06CD3A2F49">
+<createdBy>Arthur</createdBy>
+<modifiedBy>Arthur</modifiedBy>
+<createdTime>2025-04-19 17:31:56 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="3DCE21FE-F759-7896-A89D-3B03BEF716B7" otype="Entity" vid="F6B967E7-EE7A-5187-54D2-C3B84B481032">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="377" y="189" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7031705C-ECA4-42C0-6CEA-540147483FBD" otype="Entity" vid="442643E2-C391-C2CE-B465-F8FD6F82101E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="30" y="173" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="7AF228AC-2CFA-DF0B-704F-963BF865E43C" otype="Entity" vid="1D509241-1C72-20B6-8D3A-C6C26F12277E">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="200" y="301" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="99734A4F-FD9F-7C8E-0F83-AB065A5E5B4A" otype="Entity" vid="8E13D947-D46E-95B9-DFE9-49B00D3B7F25">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="326" y="34" width="170" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B9872458-58C0-AE61-01DA-8CE56BCEB654" otype="Entity" vid="A532025E-2780-49D2-069E-216D212E522C">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<bounds x="25" y="34" width="170" height="110"/>
+</OView>
+</objectViews>
+</Diagram>

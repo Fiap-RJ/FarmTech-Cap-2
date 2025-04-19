@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DCE21FE-F759-7896-A89D-3B03BEF716B7" name="Ajuste_Aplicacao">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:55:30 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_ajuste" id="6B846267-5196-C62C-F6A8-E3540CD49EA0">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:55:59 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador do ajuste]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora" id="147E0916-1177-264C-454B-1A79DEE9A72C">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:56:27 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora do ajuster]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_ajuste" id="51E88217-2491-F74E-C02D-9C3A51125203">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:56:44 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tiipo do ajuste (Água ou Nutriente)]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidade_aplicada" id="D07836B0-9F24-1CFE-AE81-30E719D3DC36">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:57:03 UTC</createdTime>
+<commentInRDBMS><![CDATA[Quantidade aplicada (litros ou unidade)]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cultura" id="BE5ECBFE-922F-BFA5-8DC0-654031BB31C1">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:57:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cultura associada ao ajuste]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A257D117-F8AC-7CE0-4594-6F68F528AAA8" name="Ajuste_Aplicacao PK">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:56:09 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6B846267-5196-C62C-F6A8-E3540CD49EA0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

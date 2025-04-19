@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99734A4F-FD9F-7C8E-0F83-AB065A5E5B4A" name="Leitura_Sensor">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:46:47 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_leitura" id="553BDAA4-37B9-CCA0-A9AA-9A0ADBF2E216">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:47:12 UTC</createdTime>
+<commentInRDBMS><![CDATA[Identificador da leitura]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora" id="33FBC013-BDBF-B49F-DF91-F6BB7640D7A3">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:47:42 UTC</createdTime>
+<commentInRDBMS><![CDATA[Data e hora da leitura]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="BEC58070-D04A-52EA-92CC-37269EAB0701">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:48:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Valor registrado pelo sensor]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_sensor" id="3F2B2D3F-2553-5C73-B9E6-CBC94B42C515">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:49:32 UTC</createdTime>
+<commentInRDBMS><![CDATA[Sensor que realizou a leitura]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cultura" id="2DF819D7-808A-C7FC-60F7-380964D01E38">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:50:01 UTC</createdTime>
+<commentInRDBMS><![CDATA[Cultura associada à leitura]]></commentInRDBMS>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E694B7BC-C5FF-AACE-D5FF-EF4B05C84252" name="Leitura_Sensor PK">
+<createdBy>Arthur</createdBy>
+<createdTime>2025-04-19 17:54:35 UTC</createdTime>
+<ownerDesignName>modelo_farmtech</ownerDesignName>
+<engineerTo>
+<item key="ECA1B036-862F-576A-388D-48012D2FC39D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>553BDAA4-37B9-CCA0-A9AA-9A0ADBF2E216</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
